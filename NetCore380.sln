@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore380", "NetCore380\NetCore380.csproj", "{88B284B4-1738-484A-A99C-68106051FC35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例29使用namespace關鍵字", "實例29使用namespace關鍵字\實例29使用namespace關鍵字.csproj", "{1D5152B9-CB61-4346-AE13-46259FD02F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例30巢狀結構命名空間", "實例30巢狀結構命名空間\實例30巢狀結構命名空間.csproj", "{BC59EC7B-7435-409F-B5A5-C0C1A5B587DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例31引用命名空間", "實例31引用命名空間\實例31引用命名空間.csproj", "{5FCDB321-9285-42EA-8342-F5508231806E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例32在命名空間內部引用其他命名空間", "實例32在命名空間內部引用其他命名空間\實例32在命名空間內部引用其他命名空間.csproj", "{160E43A2-20E3-44B8-B563-2F5D7B4B2ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例33使用全域命名空間", "實例33使用全域命名空間\實例33使用全域命名空間.csproj", "{AFC05922-72CC-4C21-A6B9-623AAEDCCFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例34為引用的命名空間設定別名", "實例34為引用的命名空間設定別名\實例34為引用的命名空間設定別名.csproj", "{E3AB3697-86B1-45C4-A569-E32C36EDF596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例35使用using static 指令", "實例35使用using static 指令\實例35使用using static 指令.csproj", "{ACF5ECD5-C143-4783-963D-480B0BE1298F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88B284B4-1738-484A-A99C-68106051FC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B284B4-1738-484A-A99C-68106051FC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B284B4-1738-484A-A99C-68106051FC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B284B4-1738-484A-A99C-68106051FC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5152B9-CB61-4346-AE13-46259FD02F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5152B9-CB61-4346-AE13-46259FD02F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5152B9-CB61-4346-AE13-46259FD02F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5152B9-CB61-4346-AE13-46259FD02F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC59EC7B-7435-409F-B5A5-C0C1A5B587DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC59EC7B-7435-409F-B5A5-C0C1A5B587DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC59EC7B-7435-409F-B5A5-C0C1A5B587DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC59EC7B-7435-409F-B5A5-C0C1A5B587DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCDB321-9285-42EA-8342-F5508231806E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCDB321-9285-42EA-8342-F5508231806E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCDB321-9285-42EA-8342-F5508231806E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCDB321-9285-42EA-8342-F5508231806E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160E43A2-20E3-44B8-B563-2F5D7B4B2ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160E43A2-20E3-44B8-B563-2F5D7B4B2ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160E43A2-20E3-44B8-B563-2F5D7B4B2ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160E43A2-20E3-44B8-B563-2F5D7B4B2ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC05922-72CC-4C21-A6B9-623AAEDCCFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC05922-72CC-4C21-A6B9-623AAEDCCFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC05922-72CC-4C21-A6B9-623AAEDCCFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC05922-72CC-4C21-A6B9-623AAEDCCFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AB3697-86B1-45C4-A569-E32C36EDF596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AB3697-86B1-45C4-A569-E32C36EDF596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AB3697-86B1-45C4-A569-E32C36EDF596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AB3697-86B1-45C4-A569-E32C36EDF596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF5ECD5-C143-4783-963D-480B0BE1298F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF5ECD5-C143-4783-963D-480B0BE1298F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF5ECD5-C143-4783-963D-480B0BE1298F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF5ECD5-C143-4783-963D-480B0BE1298F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF1009A9-F376-4D6C-9266-CBBAEA7D2156}
+	EndGlobalSection
+EndGlobal
