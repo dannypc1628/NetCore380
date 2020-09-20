@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "實例42取得命令列參數": {
+      "commandName": "Project",
+      "commandLineArgs": "-a -b -c  ddd eee "
+    }
+  }
+}
