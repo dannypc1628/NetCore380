@@ -3,21 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore380", "NetCore380\NetCore380.csproj", "{88B284B4-1738-484A-A99C-68106051FC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore380", "NetCore380\NetCore380.csproj", "{88B284B4-1738-484A-A99C-68106051FC35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例29使用namespace關鍵字", "實例29使用namespace關鍵字\實例29使用namespace關鍵字.csproj", "{1D5152B9-CB61-4346-AE13-46259FD02F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例29使用namespace關鍵字", "實例29使用namespace關鍵字\實例29使用namespace關鍵字.csproj", "{1D5152B9-CB61-4346-AE13-46259FD02F43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例30巢狀結構命名空間", "實例30巢狀結構命名空間\實例30巢狀結構命名空間.csproj", "{BC59EC7B-7435-409F-B5A5-C0C1A5B587DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例30巢狀結構命名空間", "實例30巢狀結構命名空間\實例30巢狀結構命名空間.csproj", "{BC59EC7B-7435-409F-B5A5-C0C1A5B587DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例31引用命名空間", "實例31引用命名空間\實例31引用命名空間.csproj", "{5FCDB321-9285-42EA-8342-F5508231806E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例31引用命名空間", "實例31引用命名空間\實例31引用命名空間.csproj", "{5FCDB321-9285-42EA-8342-F5508231806E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例32在命名空間內部引用其他命名空間", "實例32在命名空間內部引用其他命名空間\實例32在命名空間內部引用其他命名空間.csproj", "{160E43A2-20E3-44B8-B563-2F5D7B4B2ADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例32在命名空間內部引用其他命名空間", "實例32在命名空間內部引用其他命名空間\實例32在命名空間內部引用其他命名空間.csproj", "{160E43A2-20E3-44B8-B563-2F5D7B4B2ADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例33使用全域命名空間", "實例33使用全域命名空間\實例33使用全域命名空間.csproj", "{AFC05922-72CC-4C21-A6B9-623AAEDCCFA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例33使用全域命名空間", "實例33使用全域命名空間\實例33使用全域命名空間.csproj", "{AFC05922-72CC-4C21-A6B9-623AAEDCCFA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例34為引用的命名空間設定別名", "實例34為引用的命名空間設定別名\實例34為引用的命名空間設定別名.csproj", "{E3AB3697-86B1-45C4-A569-E32C36EDF596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例34為引用的命名空間設定別名", "實例34為引用的命名空間設定別名\實例34為引用的命名空間設定別名.csproj", "{E3AB3697-86B1-45C4-A569-E32C36EDF596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例35使用using static 指令", "實例35使用using static 指令\實例35使用using static 指令.csproj", "{ACF5ECD5-C143-4783-963D-480B0BE1298F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例35使用using static 指令", "實例35使用using static 指令\實例35使用using static 指令.csproj", "{ACF5ECD5-C143-4783-963D-480B0BE1298F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例36一次性宣告多個變數", "實例36一次性宣告多個變數\實例36一次性宣告多個變數.csproj", "{399CA1DE-E2C7-4776-8DD0-950EA0C4BB22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例37讓編譯器自動推斷變數的類型", "實例37讓編譯器自動推斷變數的類型\實例37讓編譯器自動推斷變數的類型.csproj", "{6C7CDD43-8424-4BF3-B856-EA9902427532}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例38使用常數", "實例38使用常數\實例38使用常數.csproj", "{E314680E-2648-436C-9C93-9AD92B4AA725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例39取得變數的記憶體位址", "實例39取得變數的記憶體位址\實例39取得變數的記憶體位址.csproj", "{D4FFF092-4261-4202-B4A0-59B97248C139}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例40輸出變數的名稱", "實例40輸出變數的名稱\實例40輸出變數的名稱.csproj", "{AE3D9474-502A-49CC-8AC4-E573F8590F67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例41為變數分配預設值", "實例41為變數分配預設值\實例41為變數分配預設值.csproj", "{45092195-5F48-49F5-9651-C70EC01F8EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例42取得命令列參數", "實例42取得命令列參數\實例42取得命令列參數.csproj", "{F829BA5F-FC1D-41FB-9ED1-FA7AE73E193C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例43處理多個進入點", "實例43處理多個進入點\實例43處理多個進入點.csproj", "{D25CA1F3-DE07-4224-8A71-488304B21C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +73,38 @@ Global
 		{ACF5ECD5-C143-4783-963D-480B0BE1298F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF5ECD5-C143-4783-963D-480B0BE1298F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF5ECD5-C143-4783-963D-480B0BE1298F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399CA1DE-E2C7-4776-8DD0-950EA0C4BB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399CA1DE-E2C7-4776-8DD0-950EA0C4BB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399CA1DE-E2C7-4776-8DD0-950EA0C4BB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399CA1DE-E2C7-4776-8DD0-950EA0C4BB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7CDD43-8424-4BF3-B856-EA9902427532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7CDD43-8424-4BF3-B856-EA9902427532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7CDD43-8424-4BF3-B856-EA9902427532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7CDD43-8424-4BF3-B856-EA9902427532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E314680E-2648-436C-9C93-9AD92B4AA725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E314680E-2648-436C-9C93-9AD92B4AA725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E314680E-2648-436C-9C93-9AD92B4AA725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E314680E-2648-436C-9C93-9AD92B4AA725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FFF092-4261-4202-B4A0-59B97248C139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FFF092-4261-4202-B4A0-59B97248C139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FFF092-4261-4202-B4A0-59B97248C139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FFF092-4261-4202-B4A0-59B97248C139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3D9474-502A-49CC-8AC4-E573F8590F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3D9474-502A-49CC-8AC4-E573F8590F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3D9474-502A-49CC-8AC4-E573F8590F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3D9474-502A-49CC-8AC4-E573F8590F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45092195-5F48-49F5-9651-C70EC01F8EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45092195-5F48-49F5-9651-C70EC01F8EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45092195-5F48-49F5-9651-C70EC01F8EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45092195-5F48-49F5-9651-C70EC01F8EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F829BA5F-FC1D-41FB-9ED1-FA7AE73E193C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F829BA5F-FC1D-41FB-9ED1-FA7AE73E193C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F829BA5F-FC1D-41FB-9ED1-FA7AE73E193C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F829BA5F-FC1D-41FB-9ED1-FA7AE73E193C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25CA1F3-DE07-4224-8A71-488304B21C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25CA1F3-DE07-4224-8A71-488304B21C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25CA1F3-DE07-4224-8A71-488304B21C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25CA1F3-DE07-4224-8A71-488304B21C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
