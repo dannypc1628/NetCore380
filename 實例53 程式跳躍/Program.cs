@@ -7,8 +7,8 @@ namespace 實例53_程式跳躍
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+        KeyIn:
+            Console.WriteLine("請輸入任意鍵，若要結束請按Esc");
             var keyInfo = Console.ReadKey(false);
 
             if (keyInfo.Key == ConsoleKey.LeftArrow)
@@ -19,29 +19,26 @@ namespace 實例53_程式跳躍
                 goto up;
             if (keyInfo.Key == ConsoleKey.DownArrow)
                 goto down;
+            if (keyInfo.Key == ConsoleKey.Escape)
+                return;
             else
                 goto other;
 
             left:
             Console.WriteLine("你按下了左方向鍵");
-            Console.Read();
-            return;
+            goto KeyIn;
         right:
             Console.WriteLine("你按下了右方向鍵");
-            Console.Read();
-            return;
+            goto KeyIn;
         up:
             Console.WriteLine("你按下了上方向鍵");
-            Console.Read();
-            return;
+            goto KeyIn;
         down:
             Console.WriteLine("你按下了下方向鍵");
-            Console.Read();
-            return;
+            goto KeyIn;
         other:
             Console.WriteLine("你按下了其他方向鍵");
-            Console.Read();
-            return;
+            goto KeyIn;
 
         }
     }
