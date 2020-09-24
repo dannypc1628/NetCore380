@@ -47,13 +47,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例45使用for循環輸�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例46產生由字元組成的圖案", "實例46產生由字元組成的圖案\實例46產生由字元組成的圖案.csproj", "{B21934CF-DCBE-4F04-B8C4-7695F68D1CEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例47無窮迴圈的處理方法", "實例47無窮迴圈的處理方法\實例47無窮迴圈的處理方法.csproj", "{1AC21430-268D-420C-BB01-32CF0A3B9553}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例47無窮迴圈的處理方法", "實例47無窮迴圈的處理方法\實例47無窮迴圈的處理方法.csproj", "{1AC21430-268D-420C-BB01-32CF0A3B9553}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例48退出循環的方法", "實例48退出循環的方法\實例48退出循環的方法.csproj", "{9F061883-ED24-4A7D-8A2F-7C55B9AE2F83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例48退出循環的方法", "實例48退出循環的方法\實例48退出循環的方法.csproj", "{9F061883-ED24-4A7D-8A2F-7C55B9AE2F83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例49輸出20 以內能被3 整除的正整數", "實例49輸出20 以內能被3 整除的正整數\實例49輸出20 以內能被3 整除的正整數.csproj", "{3B1BD2BE-AC46-4DDA-BDF7-E397A940EEAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例49輸出20 以內能被3 整除的正整數", "實例49輸出20 以內能被3 整除的正整數\實例49輸出20 以內能被3 整除的正整數.csproj", "{3B1BD2BE-AC46-4DDA-BDF7-E397A940EEAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例50 做一道選擇題", "實例50 做一道選擇題\實例50 做一道選擇題.csproj", "{960C9318-5910-4467-92ED-39F42A0D4E44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例50 做一道選擇題", "實例50 做一道選擇題\實例50 做一道選擇題.csproj", "{960C9318-5910-4467-92ED-39F42A0D4E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例51 switch 敘述的類型比對", "實例51 switch 敘述的類型比對\實例51 switch 敘述的類型比對.csproj", "{6227581F-6049-4F50-A5D8-939C9941A80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例52 在case敘述中使用when子句", "實例52 在case敘述中使用when子句\實例52 在case敘述中使用when子句.csproj", "{888DB00C-1DA3-4782-9A0D-FA08D56BAD50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例53 程式跳躍", "實例53 程式跳躍\實例53 程式跳躍.csproj", "{30932F2A-FC47-4E48-B378-B6AD7E21C48F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{960C9318-5910-4467-92ED-39F42A0D4E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960C9318-5910-4467-92ED-39F42A0D4E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960C9318-5910-4467-92ED-39F42A0D4E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6227581F-6049-4F50-A5D8-939C9941A80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6227581F-6049-4F50-A5D8-939C9941A80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6227581F-6049-4F50-A5D8-939C9941A80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6227581F-6049-4F50-A5D8-939C9941A80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888DB00C-1DA3-4782-9A0D-FA08D56BAD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888DB00C-1DA3-4782-9A0D-FA08D56BAD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888DB00C-1DA3-4782-9A0D-FA08D56BAD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888DB00C-1DA3-4782-9A0D-FA08D56BAD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30932F2A-FC47-4E48-B378-B6AD7E21C48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30932F2A-FC47-4E48-B378-B6AD7E21C48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30932F2A-FC47-4E48-B378-B6AD7E21C48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30932F2A-FC47-4E48-B378-B6AD7E21C48F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
