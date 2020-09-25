@@ -61,6 +61,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例52 在case敘述中�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例53 程式跳躍", "實例53 程式跳躍\實例53 程式跳躍.csproj", "{30932F2A-FC47-4E48-B378-B6AD7E21C48F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例54 宣告公共類別", "實例54 宣告公共類別\實例54 宣告公共類別.csproj", "{B65E65DB-8302-45A5-B7A7-87BD2EAEAC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例54 宣告公共類別測試internal", "實例54 宣告公共類別測試internal\實例54 宣告公共類別測試internal.csproj", "{8144419C-1EBD-4575-9DA9-29CC6E9058E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例55 為結構定義建置函數", "實例55 為結構定義建置函數\實例55 為結構定義建置函數.csproj", "{AFA9466F-A473-4125-A337-E4EE7A49EE37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例56 建置函數的相互呼叫", "實例56 建置函數的相互呼叫\實例56 建置函數的相互呼叫.csproj", "{59D316C5-2218-4E56-A944-C2D783A14389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +191,22 @@ Global
 		{30932F2A-FC47-4E48-B378-B6AD7E21C48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30932F2A-FC47-4E48-B378-B6AD7E21C48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30932F2A-FC47-4E48-B378-B6AD7E21C48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65E65DB-8302-45A5-B7A7-87BD2EAEAC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65E65DB-8302-45A5-B7A7-87BD2EAEAC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65E65DB-8302-45A5-B7A7-87BD2EAEAC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65E65DB-8302-45A5-B7A7-87BD2EAEAC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8144419C-1EBD-4575-9DA9-29CC6E9058E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8144419C-1EBD-4575-9DA9-29CC6E9058E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8144419C-1EBD-4575-9DA9-29CC6E9058E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8144419C-1EBD-4575-9DA9-29CC6E9058E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA9466F-A473-4125-A337-E4EE7A49EE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA9466F-A473-4125-A337-E4EE7A49EE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA9466F-A473-4125-A337-E4EE7A49EE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA9466F-A473-4125-A337-E4EE7A49EE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D316C5-2218-4E56-A944-C2D783A14389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D316C5-2218-4E56-A944-C2D783A14389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D316C5-2218-4E56-A944-C2D783A14389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D316C5-2218-4E56-A944-C2D783A14389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
