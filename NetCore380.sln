@@ -55,19 +55,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例49輸出20 以內能�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例50 做一道選擇題", "實例50 做一道選擇題\實例50 做一道選擇題.csproj", "{960C9318-5910-4467-92ED-39F42A0D4E44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例51 switch 敘述的類型比對", "實例51 switch 敘述的類型比對\實例51 switch 敘述的類型比對.csproj", "{6227581F-6049-4F50-A5D8-939C9941A80A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例51 switch 敘述的類型比對", "實例51 switch 敘述的類型比對\實例51 switch 敘述的類型比對.csproj", "{6227581F-6049-4F50-A5D8-939C9941A80A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例52 在case敘述中使用when子句", "實例52 在case敘述中使用when子句\實例52 在case敘述中使用when子句.csproj", "{888DB00C-1DA3-4782-9A0D-FA08D56BAD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例52 在case敘述中使用when子句", "實例52 在case敘述中使用when子句\實例52 在case敘述中使用when子句.csproj", "{888DB00C-1DA3-4782-9A0D-FA08D56BAD50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例53 程式跳躍", "實例53 程式跳躍\實例53 程式跳躍.csproj", "{30932F2A-FC47-4E48-B378-B6AD7E21C48F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例53 程式跳躍", "實例53 程式跳躍\實例53 程式跳躍.csproj", "{30932F2A-FC47-4E48-B378-B6AD7E21C48F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例54 宣告公共類別", "實例54 宣告公共類別\實例54 宣告公共類別.csproj", "{B65E65DB-8302-45A5-B7A7-87BD2EAEAC07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例54 宣告公共類別", "實例54 宣告公共類別\實例54 宣告公共類別.csproj", "{B65E65DB-8302-45A5-B7A7-87BD2EAEAC07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例54 宣告公共類別測試internal", "實例54 宣告公共類別測試internal\實例54 宣告公共類別測試internal.csproj", "{8144419C-1EBD-4575-9DA9-29CC6E9058E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例54 宣告公共類別測試internal", "實例54 宣告公共類別測試internal\實例54 宣告公共類別測試internal.csproj", "{8144419C-1EBD-4575-9DA9-29CC6E9058E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例55 為結構定義建置函數", "實例55 為結構定義建置函數\實例55 為結構定義建置函數.csproj", "{AFA9466F-A473-4125-A337-E4EE7A49EE37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例55 為結構定義建置函數", "實例55 為結構定義建置函數\實例55 為結構定義建置函數.csproj", "{AFA9466F-A473-4125-A337-E4EE7A49EE37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例56 建置函數的相互呼叫", "實例56 建置函數的相互呼叫\實例56 建置函數的相互呼叫.csproj", "{59D316C5-2218-4E56-A944-C2D783A14389}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例56 建置函數的相互呼叫", "實例56 建置函數的相互呼叫\實例56 建置函數的相互呼叫.csproj", "{59D316C5-2218-4E56-A944-C2D783A14389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例57 靜態建置函數", "實例57 靜態建置函數\實例57 靜態建置函數.csproj", "{0AC2705A-5ADF-4E4A-9297-F7C53209A132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例58 驗證屬性值的有效性", "實例58 驗證屬性值的有效性\實例58 驗證屬性值的有效性.csproj", "{A053CE79-D437-4184-8617-3A2993067AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例59 初始化唯讀欄位", "實例59 初始化唯讀欄位\實例59 初始化唯讀欄位.csproj", "{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +213,18 @@ Global
 		{59D316C5-2218-4E56-A944-C2D783A14389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D316C5-2218-4E56-A944-C2D783A14389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D316C5-2218-4E56-A944-C2D783A14389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC2705A-5ADF-4E4A-9297-F7C53209A132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC2705A-5ADF-4E4A-9297-F7C53209A132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC2705A-5ADF-4E4A-9297-F7C53209A132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC2705A-5ADF-4E4A-9297-F7C53209A132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A053CE79-D437-4184-8617-3A2993067AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A053CE79-D437-4184-8617-3A2993067AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A053CE79-D437-4184-8617-3A2993067AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A053CE79-D437-4184-8617-3A2993067AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
