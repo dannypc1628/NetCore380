@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>實例61_大類實例傳遞給方法後為什麼沒有被更改</RootNamespace>
+  </PropertyGroup>
+
+</Project>
