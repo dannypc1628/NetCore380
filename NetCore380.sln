@@ -69,11 +69,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例55 為結構定義建
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例56 建置函數的相互呼叫", "實例56 建置函數的相互呼叫\實例56 建置函數的相互呼叫.csproj", "{59D316C5-2218-4E56-A944-C2D783A14389}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例57 靜態建置函數", "實例57 靜態建置函數\實例57 靜態建置函數.csproj", "{0AC2705A-5ADF-4E4A-9297-F7C53209A132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例57 靜態建置函數", "實例57 靜態建置函數\實例57 靜態建置函數.csproj", "{0AC2705A-5ADF-4E4A-9297-F7C53209A132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例58 驗證屬性值的有效性", "實例58 驗證屬性值的有效性\實例58 驗證屬性值的有效性.csproj", "{A053CE79-D437-4184-8617-3A2993067AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例58 驗證屬性值的有效性", "實例58 驗證屬性值的有效性\實例58 驗證屬性值的有效性.csproj", "{A053CE79-D437-4184-8617-3A2993067AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例59 初始化唯讀欄位", "實例59 初始化唯讀欄位\實例59 初始化唯讀欄位.csproj", "{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例59 初始化唯讀欄位", "實例59 初始化唯讀欄位\實例59 初始化唯讀欄位.csproj", "{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例60 多載方法", "實例60 多載方法\實例60 多載方法.csproj", "{3FEF1958-0793-43E7-AC53-1C4E051B0486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例61 大類實例傳遞給方法後為什麼沒有被更改", "實例61 大類實例傳遞給方法後為什麼沒有被更改\實例61 大類實例傳遞給方法後為什麼沒有被更改.csproj", "{E1C8CD39-EA8A-4479-BDED-5537056472E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例62 輸出參數", "實例62 輸出參數\實例62 輸出參數.csproj", "{A3942859-E546-49EF-8D8B-7666A0FF258A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例63 可變個數的方法參數", "實例63 可變個數的方法參數\實例63 可變個數的方法參數.csproj", "{8A04F627-2967-4BBE-8B0D-18362C98DE4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +233,22 @@ Global
 		{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6DBA2C1-09E8-4878-8F2D-F4F6CC96E86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FEF1958-0793-43E7-AC53-1C4E051B0486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEF1958-0793-43E7-AC53-1C4E051B0486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEF1958-0793-43E7-AC53-1C4E051B0486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEF1958-0793-43E7-AC53-1C4E051B0486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C8CD39-EA8A-4479-BDED-5537056472E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C8CD39-EA8A-4479-BDED-5537056472E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C8CD39-EA8A-4479-BDED-5537056472E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C8CD39-EA8A-4479-BDED-5537056472E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3942859-E546-49EF-8D8B-7666A0FF258A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3942859-E546-49EF-8D8B-7666A0FF258A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3942859-E546-49EF-8D8B-7666A0FF258A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3942859-E546-49EF-8D8B-7666A0FF258A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A04F627-2967-4BBE-8B0D-18362C98DE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A04F627-2967-4BBE-8B0D-18362C98DE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A04F627-2967-4BBE-8B0D-18362C98DE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A04F627-2967-4BBE-8B0D-18362C98DE4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
