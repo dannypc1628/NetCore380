@@ -83,13 +83,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例62 輸出參數", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例63 可變個數的方法參數", "實例63 可變個數的方法參數\實例63 可變個數的方法參數.csproj", "{8A04F627-2967-4BBE-8B0D-18362C98DE4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例64 使用按參考傳遞的傳回值", "實例64 使用按參考傳遞的傳回值\實例64 使用按參考傳遞的傳回值.csproj", "{B896C4B3-8501-4ED8-9FB9-DFE14E53F229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例64 使用按參考傳遞的傳回值", "實例64 使用按參考傳遞的傳回值\實例64 使用按參考傳遞的傳回值.csproj", "{B896C4B3-8501-4ED8-9FB9-DFE14E53F229}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例65 按參數名稱來傳值", "實例65 按參數名稱來傳值\實例65 按參數名稱來傳值.csproj", "{46A0D413-EBF5-4E4A-A272-611F746E7FF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例65 按參數名稱來傳值", "實例65 按參數名稱來傳值\實例65 按參數名稱來傳值.csproj", "{46A0D413-EBF5-4E4A-A272-611F746E7FF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例66 可選參數", "實例66 可選參數\實例66 可選參數.csproj", "{05CB7F42-E1FA-4DDF-AAB5-E2E24AE9DB44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例66 可選參數", "實例66 可選參數\實例66 可選參數.csproj", "{05CB7F42-E1FA-4DDF-AAB5-E2E24AE9DB44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例67 在宣告時初始化屬性", "實例67 在宣告時初始化屬性\實例67 在宣告時初始化屬性.csproj", "{E3CF638B-552D-4617-9A03-EBF915DA8274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例67 在宣告時初始化屬性", "實例67 在宣告時初始化屬性\實例67 在宣告時初始化屬性.csproj", "{E3CF638B-552D-4617-9A03-EBF915DA8274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例68 委派實例如何綁定方法", "實例68 委派實例如何綁定方法\實例68 委派實例如何綁定方法.csproj", "{21A9110A-EDC7-4508-9BC8-FE7B9360F500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例69 綁定多個方法", "實例69 綁定多個方法\實例69 綁定多個方法.csproj", "{373D5954-11B4-4CAF-831B-891C008F93C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例70 匿名方法", "實例70 匿名方法\實例70 匿名方法.csproj", "{1ABE0636-8894-4D08-B5B1-AF4944098B11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例71 封裝事件", "實例71 封裝事件\實例71 封裝事件.csproj", "{DCF44089-3609-40E2-8B7C-DC6A3FE835A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +281,22 @@ Global
 		{E3CF638B-552D-4617-9A03-EBF915DA8274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3CF638B-552D-4617-9A03-EBF915DA8274}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3CF638B-552D-4617-9A03-EBF915DA8274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A9110A-EDC7-4508-9BC8-FE7B9360F500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A9110A-EDC7-4508-9BC8-FE7B9360F500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A9110A-EDC7-4508-9BC8-FE7B9360F500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A9110A-EDC7-4508-9BC8-FE7B9360F500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373D5954-11B4-4CAF-831B-891C008F93C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373D5954-11B4-4CAF-831B-891C008F93C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373D5954-11B4-4CAF-831B-891C008F93C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373D5954-11B4-4CAF-831B-891C008F93C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ABE0636-8894-4D08-B5B1-AF4944098B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABE0636-8894-4D08-B5B1-AF4944098B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABE0636-8894-4D08-B5B1-AF4944098B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABE0636-8894-4D08-B5B1-AF4944098B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF44089-3609-40E2-8B7C-DC6A3FE835A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF44089-3609-40E2-8B7C-DC6A3FE835A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF44089-3609-40E2-8B7C-DC6A3FE835A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF44089-3609-40E2-8B7C-DC6A3FE835A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
