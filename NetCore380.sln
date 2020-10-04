@@ -111,11 +111,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例76 重新定義基礎
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例77 徹底取代基礎類別的成員", "實例77 徹底取代基礎類別的成員\實例77 徹底取代基礎類別的成員.csproj", "{2BCC1CB3-8E94-4A22-BCE8-D4CF115B9A58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例78 實現多個介面", "實例78 實現多個介面\實例78 實現多個介面.csproj", "{9ED2BD1C-426C-49DB-8EDC-8BAC66C66B93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例78 實現多個介面", "實例78 實現多個介面\實例78 實現多個介面.csproj", "{9ED2BD1C-426C-49DB-8EDC-8BAC66C66B93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例79 實現介面的結構", "實例79 實現介面的結構\實例79 實現介面的結構.csproj", "{4DB86789-7612-4278-8061-D3C80BDAD13C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例79 實現介面的結構", "實例79 實現介面的結構\實例79 實現介面的結構.csproj", "{4DB86789-7612-4278-8061-D3C80BDAD13C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例80 隱藏建置函數", "實例80 隱藏建置函數\實例80 隱藏建置函數.csproj", "{D2E7A866-645D-4AB1-A269-42F8A5DCBBC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例80 隱藏建置函數", "實例80 隱藏建置函數\實例80 隱藏建置函數.csproj", "{D2E7A866-645D-4AB1-A269-42F8A5DCBBC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例81 到底呼叫了誰", "實例81 到底呼叫了誰\實例81 到底呼叫了誰.csproj", "{F09F73A8-3F15-4537-BCE0-17F2D7F46C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例82 解構函數", "實例82 解構函數\實例82 解構函數.csproj", "{4D818F9A-5770-4165-8F80-E07E602BDA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例83 實現IDisposable 介面", "實例83 實現IDisposable 介面\實例83 實現IDisposable 介面.csproj", "{661E9849-5181-4089-82A9-2627A2048E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +357,18 @@ Global
 		{D2E7A866-645D-4AB1-A269-42F8A5DCBBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E7A866-645D-4AB1-A269-42F8A5DCBBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E7A866-645D-4AB1-A269-42F8A5DCBBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09F73A8-3F15-4537-BCE0-17F2D7F46C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09F73A8-3F15-4537-BCE0-17F2D7F46C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09F73A8-3F15-4537-BCE0-17F2D7F46C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09F73A8-3F15-4537-BCE0-17F2D7F46C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D818F9A-5770-4165-8F80-E07E602BDA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D818F9A-5770-4165-8F80-E07E602BDA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D818F9A-5770-4165-8F80-E07E602BDA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D818F9A-5770-4165-8F80-E07E602BDA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661E9849-5181-4089-82A9-2627A2048E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661E9849-5181-4089-82A9-2627A2048E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661E9849-5181-4089-82A9-2627A2048E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661E9849-5181-4089-82A9-2627A2048E28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
