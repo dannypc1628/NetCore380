@@ -13,7 +13,8 @@ namespace 實例83_實現IDisposable_介面
             using(TextWriter wt = new TextWriter())
             {
                 wt.WriteText("程式設計真快樂。");
-            }
+            }//using區塊結束時會自動執行(TextWriter wt)裡面的Dispose();
+
             TextWriter wt2 = new TextWriter();
             wt2.WriteText("程式設計真快樂。");
             wt2.Dispose();
