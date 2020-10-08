@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>實例93_檢查列舉實例中是否包含某個標示位</RootNamespace>
+  </PropertyGroup>
+
+</Project>
