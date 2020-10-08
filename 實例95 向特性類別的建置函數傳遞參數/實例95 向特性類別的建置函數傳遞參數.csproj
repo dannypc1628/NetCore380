@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>實例95_向特性類別的建置函數傳遞參數</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -131,11 +131,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例86 巢狀結構類別
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例87 匿名類型", "實例87 匿名類型\實例87 匿名類型.csproj", "{15A945BA-A1BE-40EB-BF8C-AF1580246330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例88 宣告列舉類型", "實例88 宣告列舉類型\實例88 宣告列舉類型.csproj", "{491A7286-ACE7-4471-AA45-9E3149A8598A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例88 宣告列舉類型", "實例88 宣告列舉類型\實例88 宣告列舉類型.csproj", "{491A7286-ACE7-4471-AA45-9E3149A8598A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例89 指定列舉的基礎類型", "實例89 指定列舉的基礎類型\實例89 指定列舉的基礎類型.csproj", "{B1DBA37E-5DC2-489C-87A7-4980D789B66E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例89 指定列舉的基礎類型", "實例89 指定列舉的基礎類型\實例89 指定列舉的基礎類型.csproj", "{B1DBA37E-5DC2-489C-87A7-4980D789B66E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例90 常數的標示位運算", "實例90 常數的標示位運算\實例90 常數的標示位運算.csproj", "{CF5C6CBD-6835-4BA5-BB2B-109C8D6471FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例90 常數的標示位運算", "實例90 常數的標示位運算\實例90 常數的標示位運算.csproj", "{CF5C6CBD-6835-4BA5-BB2B-109C8D6471FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例91 自動產生的常數值", "實例91 自動產生的常數值\實例91 自動產生的常數值.csproj", "{6CF2D4D0-2C0C-42E3-BC42-1D7DB9E12F87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例92 取得列舉中常數的名稱", "實例92 取得列舉中常數的名稱\實例92 取得列舉中常數的名稱.csproj", "{9F79C78A-3634-47DE-A32B-E880A4CA3117}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例93 檢查列舉實例中是否包含某個標示位", "實例93 檢查列舉實例中是否包含某個標示位\實例93 檢查列舉實例中是否包含某個標示位.csproj", "{E3CF9ABA-D14A-4415-957E-EBC9015480DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例94 自訂特性類別", "實例94 自訂特性類別\實例94 自訂特性類別.csproj", "{13CA2364-917A-4B6E-8B15-8E378E0C3031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例95 向特性類別的建置函數傳遞參數", "實例95 向特性類別的建置函數傳遞參數\實例95 向特性類別的建置函數傳遞參數.csproj", "{2FC2F0D6-90DA-46CB-A546-28F683096AE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +421,26 @@ Global
 		{CF5C6CBD-6835-4BA5-BB2B-109C8D6471FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF5C6CBD-6835-4BA5-BB2B-109C8D6471FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF5C6CBD-6835-4BA5-BB2B-109C8D6471FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF2D4D0-2C0C-42E3-BC42-1D7DB9E12F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF2D4D0-2C0C-42E3-BC42-1D7DB9E12F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF2D4D0-2C0C-42E3-BC42-1D7DB9E12F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF2D4D0-2C0C-42E3-BC42-1D7DB9E12F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F79C78A-3634-47DE-A32B-E880A4CA3117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F79C78A-3634-47DE-A32B-E880A4CA3117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F79C78A-3634-47DE-A32B-E880A4CA3117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F79C78A-3634-47DE-A32B-E880A4CA3117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CF9ABA-D14A-4415-957E-EBC9015480DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CF9ABA-D14A-4415-957E-EBC9015480DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CF9ABA-D14A-4415-957E-EBC9015480DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CF9ABA-D14A-4415-957E-EBC9015480DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CA2364-917A-4B6E-8B15-8E378E0C3031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CA2364-917A-4B6E-8B15-8E378E0C3031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CA2364-917A-4B6E-8B15-8E378E0C3031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CA2364-917A-4B6E-8B15-8E378E0C3031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC2F0D6-90DA-46CB-A546-28F683096AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC2F0D6-90DA-46CB-A546-28F683096AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC2F0D6-90DA-46CB-A546-28F683096AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC2F0D6-90DA-46CB-A546-28F683096AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
