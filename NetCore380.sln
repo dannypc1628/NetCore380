@@ -143,15 +143,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例92 取得列舉中常
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例93 檢查列舉實例中是否包含某個標示位", "實例93 檢查列舉實例中是否包含某個標示位\實例93 檢查列舉實例中是否包含某個標示位.csproj", "{E3CF9ABA-D14A-4415-957E-EBC9015480DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例94 自訂特性類別", "實例94 自訂特性類別\實例94 自訂特性類別.csproj", "{13CA2364-917A-4B6E-8B15-8E378E0C3031}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例94 自訂特性類別", "實例94 自訂特性類別\實例94 自訂特性類別.csproj", "{13CA2364-917A-4B6E-8B15-8E378E0C3031}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例95 向特性類別的建置函數傳遞參數", "實例95 向特性類別的建置函數傳遞參數\實例95 向特性類別的建置函數傳遞參數.csproj", "{2FC2F0D6-90DA-46CB-A546-28F683096AE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例95 向特性類別的建置函數傳遞參數", "實例95 向特性類別的建置函數傳遞參數\實例95 向特性類別的建置函數傳遞參數.csproj", "{2FC2F0D6-90DA-46CB-A546-28F683096AE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例96 在同一物件上應用多個特性實例", "實例96 在同一物件上應用多個特性實例\實例96 在同一物件上應用多個特性實例.csproj", "{F0A9026B-8A2D-41F6-803F-2E6DBACC364C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例96 在同一物件上應用多個特性實例", "實例96 在同一物件上應用多個特性實例\實例96 在同一物件上應用多個特性實例.csproj", "{F0A9026B-8A2D-41F6-803F-2E6DBACC364C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例97 在執行時檢索特性實例", "實例97 在執行時檢索特性實例\實例97 在執行時檢索特性實例.csproj", "{33BC735E-6607-4BF0-A5CD-1E3984BC7FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例97 在執行時檢索特性實例", "實例97 在執行時檢索特性實例\實例97 在執行時檢索特性實例.csproj", "{33BC735E-6607-4BF0-A5CD-1E3984BC7FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例98 方法的傳回值如何應用特性", "實例98 方法的傳回值如何應用特性\實例98 方法的傳回值如何應用特性.csproj", "{34E42A98-3088-4AA4-94DE-B6E215F89DFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "實例98 方法的傳回值如何應用特性", "實例98 方法的傳回值如何應用特性\實例98 方法的傳回值如何應用特性.csproj", "{34E42A98-3088-4AA4-94DE-B6E215F89DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "實例99 計算一個整數的階乘", "實例99 計算一個整數的階乘\實例99 計算一個整數的階乘.csproj", "{77858E4C-C1B8-4A81-8FB2-07BE7C9A83BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -459,6 +461,10 @@ Global
 		{34E42A98-3088-4AA4-94DE-B6E215F89DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E42A98-3088-4AA4-94DE-B6E215F89DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E42A98-3088-4AA4-94DE-B6E215F89DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77858E4C-C1B8-4A81-8FB2-07BE7C9A83BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77858E4C-C1B8-4A81-8FB2-07BE7C9A83BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77858E4C-C1B8-4A81-8FB2-07BE7C9A83BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77858E4C-C1B8-4A81-8FB2-07BE7C9A83BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
