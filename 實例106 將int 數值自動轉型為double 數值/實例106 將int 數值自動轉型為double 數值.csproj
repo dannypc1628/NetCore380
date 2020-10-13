@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>實例106_將int_數值自動轉型為double_數值</RootNamespace>
+  </PropertyGroup>
+
+</Project>
